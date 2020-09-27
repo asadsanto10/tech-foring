@@ -19,8 +19,8 @@ $(document).ready(function () {
         speed: 300,
         slidesToShow: 5,
         slidesToScroll: 2,
-        prevArrow: "<img class='a-left control-c prev slick-prev' src='../image/Desktop/icon/left-arrow.png'>",
-        nextArrow: "<img class='a-right control-c next slick-next' src='../image/Desktop/icon/right-arrow.png'>",
+        prevArrow: "<img class='a-left control-c prev slick-prev' src='./image/Desktop/icon/left-arrow.png'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='./image/Desktop/icon/right-arrow.png'>",
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -58,7 +58,7 @@ $(document).ready(function () {
         slidesToShow: 1,
         rows: 4,
         slidesToScroll: 1,
-        nextArrow: "<img class='a-right control-c next slick-next' src='../image/Desktop/icon/next (1).png'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='./image/Desktop/icon/next (1).png'>",
         responsive: [
         {
             breakpoint: 768,
