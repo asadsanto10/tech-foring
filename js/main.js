@@ -96,7 +96,7 @@ $(document).ready(function () {
     //client - slider
     $('#single-client-slider').slick({
         infinite: true,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 3000,
         // dots: true,
         speed: 300,
