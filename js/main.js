@@ -189,12 +189,3 @@ var scrolltotop = {
     }
 };
 scrolltotop.init();
-jQuery(document).ready(function ($) {
-    if (localStorage.getItem('advertOnce') !== 'true') {
-        $('body').append('<div id="advert-once" style="position:fixed; bottom: 10px; left: 10px;"><a href="https://www.scrolltotop.com/guide-on-how-to-make-a-website.php" target="_blank" rel="nofollow"><img src="https://i1155.photobucket.com/albums/p559/scrolltotop/makewebsite.png" width="87" height="52" border="0" alt="make a website" /></a><div class="advert-button"></div></div>')
-        localStorage.setItem('advertOnce', 'true');
-    }
-    $('#advert-once .advert-button').on('click', function () {
-        $('#advert-once').hide();
-    });
-});
